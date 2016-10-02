@@ -1,0 +1,22 @@
+{
+  "src_folders" : ["tests"],
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./bin/sserver.jar",
+    "port" : 4444,
+    "cli_args" : {
+      "webriver.chrome.driver" : "./bin/chromedriver"
+    }
+  },
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "https://lobster-form.herokuapp.com/",
+      "selenium_port" : 4444,
+      "selenium_host" : "localhost",
+      "silent" : true,
+      "desireCapabilities" : {
+        "browserName" : "chrome"
+      }
+    }
+  }
+}

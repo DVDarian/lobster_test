@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DVDarian/lobster_test/issues"
   },
-  "homepage": "https://github.com/DVDarian/lobster_test#readme"
+  "homepage": "https://github.com/DVDarian/lobster_test#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.8"
+  }
 }
